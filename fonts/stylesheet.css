@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Eurostile Round Condensed';
+    src: url('EurostileRoundCondensed-Heavy.eot');
+    src: local('Eurostile Round Condensed Heavy'), local('EurostileRoundCondensed-Heavy'),
+        url('EurostileRoundCondensed-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundCondensed-Heavy.woff2') format('woff2'),
+        url('EurostileRoundCondensed-Heavy.woff') format('woff'),
+        url('EurostileRoundCondensed-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Condensed';
+    src: url('EurostileRoundCondensed-Italic.eot');
+    src: local('Eurostile Round Condensed Italic'), local('EurostileRoundCondensed-Italic'),
+        url('EurostileRoundCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundCondensed-Italic.woff2') format('woff2'),
+        url('EurostileRoundCondensed-Italic.woff') format('woff'),
+        url('EurostileRoundCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-Black.eot');
+    src: local('Eurostile Round Black'), local('EurostileRound-Black'),
+        url('EurostileRound-Black.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-Black.woff2') format('woff2'),
+        url('EurostileRound-Black.woff') format('woff'),
+        url('EurostileRound-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Extended';
+    src: url('EurostileRoundExtended-Medium.eot');
+    src: local('Eurostile Round Extended Medium'), local('EurostileRoundExtended-Medium'),
+        url('EurostileRoundExtended-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundExtended-Medium.woff2') format('woff2'),
+        url('EurostileRoundExtended-Medium.woff') format('woff'),
+        url('EurostileRoundExtended-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-BlackItalic.eot');
+    src: local('Eurostile Round Black Italic'), local('EurostileRound-BlackItalic'),
+        url('EurostileRound-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-BlackItalic.woff2') format('woff2'),
+        url('EurostileRound-BlackItalic.woff') format('woff'),
+        url('EurostileRound-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Extended';
+    src: url('EurostileRoundExtended-Italic.eot');
+    src: local('Eurostile Round Extended Italic'), local('EurostileRoundExtended-Italic'),
+        url('EurostileRoundExtended-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundExtended-Italic.woff2') format('woff2'),
+        url('EurostileRoundExtended-Italic.woff') format('woff'),
+        url('EurostileRoundExtended-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-MediumItalic.eot');
+    src: local('Eurostile Round Medium Italic'), local('EurostileRound-MediumItalic'),
+        url('EurostileRound-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-MediumItalic.woff2') format('woff2'),
+        url('EurostileRound-MediumItalic.woff') format('woff'),
+        url('EurostileRound-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Extended';
+    src: url('EurostileRoundExtended-BlackItalic.eot');
+    src: local('Eurostile Round Extended Black Italic'), local('EurostileRoundExtended-BlackItalic'),
+        url('EurostileRoundExtended-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundExtended-BlackItalic.woff2') format('woff2'),
+        url('EurostileRoundExtended-BlackItalic.woff') format('woff'),
+        url('EurostileRoundExtended-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Extended';
+    src: url('EurostileRoundExtended-Regular.eot');
+    src: local('Eurostile Round Extended Regular'), local('EurostileRoundExtended-Regular'),
+        url('EurostileRoundExtended-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundExtended-Regular.woff2') format('woff2'),
+        url('EurostileRoundExtended-Regular.woff') format('woff'),
+        url('EurostileRoundExtended-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Condensed';
+    src: url('EurostileRoundCondensed-Regular.eot');
+    src: local('Eurostile Round Condensed Regular'), local('EurostileRoundCondensed-Regular'),
+        url('EurostileRoundCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundCondensed-Regular.woff2') format('woff2'),
+        url('EurostileRoundCondensed-Regular.woff') format('woff'),
+        url('EurostileRoundCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-HeavyItalic.eot');
+    src: local('Eurostile Round Heavy Italic'), local('EurostileRound-HeavyItalic'),
+        url('EurostileRound-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-HeavyItalic.woff2') format('woff2'),
+        url('EurostileRound-HeavyItalic.woff') format('woff'),
+        url('EurostileRound-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-Regular.eot');
+    src: local('Eurostile Round Regular'), local('EurostileRound-Regular'),
+        url('EurostileRound-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-Regular.woff2') format('woff2'),
+        url('EurostileRound-Regular.woff') format('woff'),
+        url('EurostileRound-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-Heavy.eot');
+    src: local('Eurostile Round Heavy'), local('EurostileRound-Heavy'),
+        url('EurostileRound-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-Heavy.woff2') format('woff2'),
+        url('EurostileRound-Heavy.woff') format('woff'),
+        url('EurostileRound-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-Bold.eot');
+    src: local('Eurostile Round Bold'), local('EurostileRound-Bold'),
+        url('EurostileRound-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-Bold.woff2') format('woff2'),
+        url('EurostileRound-Bold.woff') format('woff'),
+        url('EurostileRound-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Condensed';
+    src: url('EurostileRoundCondensed-HeavyItalic.eot');
+    src: local('Eurostile Round Condensed Heavy Italic'), local('EurostileRoundCondensed-HeavyItalic'),
+        url('EurostileRoundCondensed-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundCondensed-HeavyItalic.woff2') format('woff2'),
+        url('EurostileRoundCondensed-HeavyItalic.woff') format('woff'),
+        url('EurostileRoundCondensed-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-BoldItalic.eot');
+    src: local('Eurostile Round Bold Italic'), local('EurostileRound-BoldItalic'),
+        url('EurostileRound-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-BoldItalic.woff2') format('woff2'),
+        url('EurostileRound-BoldItalic.woff') format('woff'),
+        url('EurostileRound-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-Italic.eot');
+    src: local('Eurostile Round Italic'), local('EurostileRound-Italic'),
+        url('EurostileRound-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-Italic.woff2') format('woff2'),
+        url('EurostileRound-Italic.woff') format('woff'),
+        url('EurostileRound-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Eurostile Round';
+    src: url('EurostileRound-Medium.eot');
+    src: local('Eurostile Round Medium'), local('EurostileRound-Medium'),
+        url('EurostileRound-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRound-Medium.woff2') format('woff2'),
+        url('EurostileRound-Medium.woff') format('woff'),
+        url('EurostileRound-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eurostile Round Extended';
+    src: url('EurostileRoundExtended-Black.eot');
+    src: local('Eurostile Round Extended Black'), local('EurostileRoundExtended-Black'),
+        url('EurostileRoundExtended-Black.eot?#iefix') format('embedded-opentype'),
+        url('EurostileRoundExtended-Black.woff2') format('woff2'),
+        url('EurostileRoundExtended-Black.woff') format('woff'),
+        url('EurostileRoundExtended-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
