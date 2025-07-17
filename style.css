@@ -2262,3 +2262,13 @@ review-card-content {
         margin-bottom: 15px;
     }
 }
+	@media (max-width: 768px) {
+    .minidiv-back {
+        display: flex; /* Показываем обратную сторону */
+        transform: rotateY(180deg);
+    }
+    
+    .minidiv-inner.flipped {
+        transform: rotateY(180deg);
+    }
+}
