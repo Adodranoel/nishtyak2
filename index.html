@@ -1,0 +1,865 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="антикафе, "/>
+    <meta property="og:title" content=" Антикафе «Ништяк» | Ростов-на-Дону " />
+    <meta name="Description" content="Антикафе «Ништяк» | Ростов-на-Дону" />
+    <title>Антикафе «Ништяк» | Ростов-на-Дону</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/logo.png" type="image/png">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+</head>
+
+<body>
+	
+	<div class="age-verification" id="ageVerification">
+        <div class="age-modal">
+            <h2>Подтверждение возраста</h2>
+            <p>Для посещения нашего сайта вам должно быть не менее 18 лет</p>
+            <div class="age-buttons">
+                <button class="age-btn age-confirm" id="confirmAge">Да, мне есть 18</button>
+                <button class="age-btn age-decline" id="declineAge">Нет, мне меньше 18</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Блок 1: главный -->
+    <div id="one" class="divglav">
+        <header>
+    <img src="img/logo.png" class="logo" alt="Логотип">
+    <div class="menu-icon" id="menu-icon">
+        <span></span>
+    </div>
+    <div class="nav-container">
+                    <nav id="nav">
+                        <ul class="menu" id="menu">
+                            <li><a href="#">О НАС</a></li>
+                            <li><a href="#">ТАРИФЫ</a></li>
+                            <li><a href="#">ОТЗЫВЫ</a></li>
+                            <li><a href="#">КОНТАКТЫ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="social-container">
+                    <div class="social-icons">
+                        <a href="https://vk.com/nishtyakrnd?to=L25pc2h0eWFrcm5kPw--"><img src="img/vk_header.png" width="50" alt="VK"></a>
+                        <a href="https://t.me/anticafe_nishtyak"><img src="img/Telegram.png" width="50" alt="Telegram"></a>
+                    </div>
+                </div>
+          
+        </header>
+
+
+         <script>
+        // Обработчик меню
+        const menuIcon = document.getElementById('menu-icon');
+        const nav = document.getElementById('nav');
+        
+        menuIcon.addEventListener('click', function() {
+            nav.classList.toggle('active');
+            menuIcon.classList.toggle('active');
+        });
+        </script>
+        
+        <p class="rostov"><img src="img/locator.png"> Ростов-на-Дону</p>
+        <p class="glav_zag"> Н<span class="neon-text">И</span>ШТЯК</p>
+		
+		<div class="hero-button-container">
+    <button class="hero-button transparent-btn" onclick="window.open('https://wa.me/79518435929', '_blank')">ЗАБРОНИРОВАТЬ</button>
+		</div>
+		
+<!-- Блок дыма в HTML -->
+<div class="smoke-effect">
+    <div class="smoke-container">
+        <!-- Частицы дыма с разными параметрами -->
+        <span class="smoke-particle" style="--size:80px; --height:150px; --duration:8s; --delay:0s; --opacity:0.3; --blur:15px; --start-x:10%; --drift-x:20px"></span>
+        <span class="smoke-particle" style="--size:120px; --height:200px; --duration:10s; --delay:1s; --opacity:0.2; --blur:20px; --start-x:25%; --drift-x:-30px"></span>
+        <span class="smoke-particle" style="--size:60px; --height:120px; --duration:7s; --delay:2s; --opacity:0.4; --blur:12px; --start-x:40%; --drift-x:15px"></span>
+        <span class="smoke-particle" style="--size:100px; --height:180px; --duration:9s; --delay:0.5s; --opacity:0.25; --blur:18px; --start-x:55%; --drift-x:-25px"></span>
+        <span class="smoke-particle" style="--size:70px; --height:140px; --duration:8.5s; --delay:1.5s; --opacity:0.35; --blur:14px; --start-x:70%; --drift-x:10px"></span>
+        <span class="smoke-particle" style="--size:90px; --height:160px; --duration:7.5s; --delay:2.5s; --opacity:0.3; --blur:16px; --start-x:85%; --drift-x:-15px"></span>
+        <span class="smoke-particle" style="--size:110px; --height:190px; --duration:11s; --delay:3s; --opacity:0.2; --blur:22px; --start-x:30%; --drift-x:25px"></span>
+        <span class="smoke-particle" style="--size:50px; --height:100px; --duration:6s; --delay:3.5s; --opacity:0.5; --blur:10px; --start-x:65%; --drift-x:-10px"></span>
+    </div>
+</div>
+		
+    </div>
+        
+    <!-- Блок 2: О нас -->
+    <div id="about" class="divper">
+        <p class="zag">ПОЧЕМУ</p>
+        <p class="zag3"> АНТИКАФЕ "НИШТЯК" <br>
+        <span class="zag2"> ИДЕАЛЬНОЕ МЕСТО <br> ДЛЯ <span class="you">ТВОЕГО</span> ОТДЫХА</span></p>
+       <div class="container">
+		<div class="minidiv">
+			<div class="minidiv-inner">
+				<div class="minidiv-front">
+					<img src="img/icon1.png" alt="Кальян" class="minidiv-icon">
+					<p>КАЛЬЯН</p>
+				</div>
+				<div class="minidiv-back">
+					<p>Средней и легкой тяжести<br>
+					Можно со своим табаком<br>
+					Большой выбор вкусов</p>
+				</div>
+			</div>
+		</div>
+		   
+    <div class="minidiv"> 
+      <div class="minidiv-inner">
+		<div class="minidiv-front">
+            <img src="img/icon2.png" alt="Приставки" class="minidiv-icon"> <br>
+            <p>ПРИСТАВКИ</p> 
+        </div>
+        <div class="minidiv-back">
+            <p>Игры в антикафе "Ништяк":<br>
+			⚽ FIFA 2024/25<br>
+			🥊 UFC 4/5<br>
+			👊 Mortal Kombat<br>
+			🏎 Gran Turismo<br>
+			🔫 GTA<br>
+			И другие...<br>
+			Играйте на PS4/PS5 – уютно, весело, безлимитно! </p>
+        </div>
+	  </div>
+    </div>
+		   
+    <div class="minidiv">
+         <div class="minidiv-inner">
+		<div class="minidiv-front">
+            <img src="img/icon3.png" alt="Бильярд" class="minidiv-icon"><br>
+            <p>БИЛЬЯРД</p>
+        </div>
+        <div class="minidiv-back">
+            <p>Бильярд – это отличная возможность<br>
+				 пообщаться с друзьями<br>
+				 или завести новые знакомства.</p>
+        </div>
+	   </div>
+    </div>
+		   
+    <div class="minidiv">
+          <div class="minidiv-inner">
+		<div class="minidiv-front">
+            <img src="img/icon4.png" alt="Настолки" class="minidiv-icon"><br>
+            <p>НАСТОЛКИ</p>
+        </div>
+        <div class="minidiv-back">
+            <p>🎲 Монополия, Мафия, Алиас<br>
+				🃏 Уно, Свинтус, Джанга<br>
+				🎭 Активити, Имаджинариум, Битва полов<br>
+				Веселье и смех гарантированы!</p>
+			 </div>
+        </div>
+    </div>
+    <div class="minidiv">
+		  <div class="minidiv-inner">
+        <div class="minidiv-front">
+            <img src="img/icon5.png" alt="Кинозона" class="minidiv-icon"><br>
+            <p>КИНОЗОНА</p>
+        </div>
+        <div class="minidiv-back">
+            <p>Кинотеатр в VIP-комнате:<br>
+				🎬 Большой экран + мощный звук<br>
+				🛋️ Удобные диваны и кресла<br>
+				📽️ Фильмы на любой вкус<br>
+				Идеально для свиданий, дружеских вечеров и праздников!</p>
+			 </div>
+        </div>
+    </div>
+    <div class="minidiv">
+		  <div class="minidiv-inner">
+        <div class="minidiv-front">
+            <img src="img/icon6.png" alt="Можно с собой" class="minidiv-icon"><br>
+            <p>МОЖНО С СОБОЙ</p>
+        </div>
+        <div class="minidiv-back">
+            <p>Приносите свои напитки<br>
+			   И любимые закуски<br>
+			   Пробкового сбора нет</p>
+			 </div>
+        </div>
+    </div>
+		   
+    <div class="minidiv">
+		  <div class="minidiv-inner">
+        <div class="minidiv-front">
+            <img src="img/icon7.png" alt="Зерновой кофе" class="minidiv-icon"><br>
+            <p>ЗЕРНОВОЙ КОФЕ</p>
+        </div>
+        <div class="minidiv-back">
+            <p>Для наших посетителей<br>
+			 у нас есть великолепный<br>
+			 зерновой кофе </p>
+			 </div>
+        </div>
+    </div>
+		   
+			<div class="minidiv">
+				  <div class="minidiv-inner">
+				<div class="minidiv-front">
+					<img src="img/icon8.png" alt="Китайский чай" class="minidiv-icon"><br>
+					<p>КИТАЙСКИЙ ЧАЙ</p>
+				</div>
+				<div class="minidiv-back">
+					<p>Погрузитесь в мир<br>
+					 восточной чайной культуры</p>
+				</div>
+			</div>  
+			</div>
+		   <div class="particles-background">
+  <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+			    <div class="particle"></div>
+  <div class="particle"></div>
+</div>
+        </div>
+    </div>
+
+    <div id="kaf1" class="divdva">
+        <br>
+        <p class="nish">НИШТЯК</p>
+        <p class="adres">Буденновский проспект 93/295</p> 
+        <button class="button2" onclick="window.open('https://wa.me/79518435929', '_blank')">ЗАБРОНИРОВАТЬ</button>
+        <div class="container1">
+            <div class="komnata">
+                <img src="img/ob.jpg">
+                <p class="tekst">ОБЩИЙ ЗАЛ</p> 
+                <p class="tekst1">240Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                900Р/день с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span></p>  
+            </div>
+            <div class="komnata">
+                <img src="img/vipka1.jpg">
+                <p class="tekst">ВИП КОМНАТА</p> 
+                <p class="tekst1">300Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                Вместимость<span class="pink"> 6 человек</span></p>  
+            </div>
+        </div>
+    </div>
+
+    <div id="kaf2" class="divdva">
+        <br>
+        <p class="nish">НИШТЯК 2.0</p>
+        <p class="adres">ул. Текучева 224</p> 
+<button class="button2" onclick="window.open('https://wa.me/79514944993', '_blank')">ЗАБРОНИРОВАТЬ</button>        <div class="container1">
+            <div class="komnata">
+                <img src="img/БЭК2.jpg" class="imghov1">
+                <p class="tekst">ОБЩИЙ ЗАЛ</p> 
+                <p class="tekst1">240Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                900Р/день с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span></p>  
+            </div>
+            <div class="komnata">
+                <img src="img/5.jpg">
+                <p class="tekst">ВИП КОМНАТА №1</p> 
+                <p class="tekst1">300Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                Вместимость<span class="pink"> 5 человек</span></p>  
+            </div>
+            <div class="komnata">
+                <img src="img/3.jpg">
+                <p class="tekst">ВИП КОМНАТА №2</p> 
+                <p class="tekst1">300Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                Вместимость<span class="pink"> 3 человека</span></p>  
+            </div>
+            <div class="komnata">
+                <img src="img/2.jpg">
+                <p class="tekst">ВИП КОМНАТА №3</p> 
+                <p class="tekst1">300Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                Вместимость<span class="pink"> 7 человек</span></p>  
+            </div>
+            <div class="komnata">
+                <img src="img/vip4.jpg">
+                <p class="tekst">ВИП КОМНАТА №4</p> 
+                <p class="tekst1">300Р/час с человека<span class="pink"> ВСЕ ВКЛЮЧЕНО</span> <br>
+                Вместимость<span class="pink"> 10 человек</span></p>  
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery" class="div3">
+        <h2 class="fot">НАШИ ФОТОГРАФИИ</h2>
+        <div class="gallery-container">
+            <div class="gallery-slider">
+                <div class="slide active">
+                    <img src="img/gallery1.jpg" alt="Фото антикафе 1">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery2.jpg" alt="Фото антикафе 2">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery3.jpg" alt="Фото антикафе 3">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery4.jpg" alt="Фото антикафе 4">
+                </div>
+                <div class="slide">
+                    <img src="img/gallery5.jpg" alt="Фото антикафе 5">
+                </div>
+				<div class="slide active">
+                    <img src="img/nast.jpg" alt="Фото антикафе 6">
+                </div>
+                <div class="slide">
+                    <img src="img/ggg.jpg" alt="Фото антикафе 7">
+                </div>
+                <div class="slide">
+                    <img src="img/obl.jpg" alt="Фото антикафе 8">
+                </div>
+             
+            </div>
+            <button class="gallery-prev">❮</button>
+            <button class="gallery-next">❯</button>
+            <div class="gallery-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+				<span class="dot" data-index="5"></span>
+                <span class="dot" data-index="6"></span>
+                <span class="dot" data-index="7"></span>
+            </div>
+        </div>
+    </div>
+	
+	<div id="reviews" class="reviews-section">
+    <h2 class="otz">ОТЗЫВЫ НАШИХ ГОСТЕЙ</h2>
+    
+    <div class="reviews-grid">
+        <!-- Отзыв 1 -->
+        <div class="review-card">
+            <div class="review-card-content">
+                <div class="review-header">
+                    <img src="img/User.svg" alt="Фото клиента" class="review-avatar">
+                    <div class="review-info">
+                        <h3 class="review-name">Дарья Т.</h3>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>Отличное место с приятным контингентом, а самое главное, что обслуживание тут на высшем уровне!
+Приятная музыка, атмосфера уютного вечерка с друзьями за настолкой и кальяном))
+Цены адекватные, везде чисто и приятно пахнет!
+Однозначно 5 звезд, желание посидеть там снова посещало меня уже ни раз!</p>
+                </div>
+                <div class="review-date">20 апреля 2024</div>
+            </div>
+        </div>
+        
+        <!-- Отзыв 2 -->
+        <div class="review-card">
+            <div class="review-card-content">
+                <div class="review-header">
+                    <img src="img/User.svg" alt="Фото клиента" class="review-avatar">
+                    <div class="review-info">
+                        <h3 class="review-name">Любовь Д.</h3>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>Заведение на высшем уровне: атмосфера невероятна крутая, обслуживание достойное, все уже включено в стоимость часа!!! Посещаем с друзьями очень часто, стали постоянными гостями, так как в такое место хочется возвращаться с каждым разом все больше!!! Желаем только процветания, спасибо, что Вы есть!!!! Рекомендуем на все 1000%</p>
+                </div>
+                <div class="review-date">27 мая 2024</div>
+            </div>
+        </div>
+        
+        <!-- Отзыв 3 -->
+        <div class="review-card">
+            <div class="review-card-content">
+                <div class="review-header">
+                    <img src="img/User.svg" alt="Фото клиента" class="review-avatar">
+                    <div class="review-info">
+                        <h3 class="review-name">Коваленко Марина</h3>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <div class="review-text">
+                    <p>Очень приятное место, а персонал вообще шикарный. Подберут под тебя всё , даже запоминают, где сидим и что курим. Спасибо большое! ❤</p>
+                </div>
+                <div class="review-date">30 апреля 2025</div>
+            </div>
+        </div>
+      
+    
+    <!-- Кнопка для добавления отзыва -->
+    <div class="add-review">
+        <a href="https://yandex.ru/maps/org/nishtyak/7787748331/reviews/?ll=39.701781%2C47.231906&z=16" class="add-review-btn" target="_blank">ОСТАВИТЬ ОТЗЫВ</a>
+    </div>
+</div>
+	</div>
+
+
+    <!-- Блок контактов с картой -->
+    <div id="contacts" class="contacts-section">
+        <h2 class="section-title">КОНТАКТЫ</h2>
+        <div class="contacts-container">
+            <!-- Карта -->
+            <div id="map"></div>
+            
+            <!-- Информационный блок -->
+            <div class="contacts-info-overlay">
+                <div class="contact-item">
+                    <h3>Телефоны</h3>
+                    <p>+7(951) 843-59-29</p>
+                    <p>+7(951) 494-49-93</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Адреса</h3>
+                    <p>ул. Текучева 224</p>
+                    <p>пр. Буденновский 93/295</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Режим работы</h3>
+                    <p>Ежедневно 15:00-2:00</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Соцсети</h3>
+                    <div class="social-links">
+                        <a href="https://vk.com/nishtyakrnd" target="_blank"><img src="img/VK.png" alt="VK"></a>
+                        <a href="https://t.me/anticafe_nishtyak" target="_blank"><img src="img/Telegram.png" alt="Telegram"></a>
+                        <a href="https://instagram.com/nishtyak_rnd" target="_blank"><img src="img/Instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+			<!-- Подвал -->
+<footer class="footer">
+    <div class="footer-content">
+        <img src="img/logo.png" alt="Логотип Ништяк" class="footer-logo">
+        
+        <div class="footer-links">
+            <a href="#">О нас</a>
+            <a href="#">Тарифы</a>
+            <a href="#">Фотогалерея</a>
+            <a href="#">Контакты</a>
+            <a href="#">Правила посещения</a>
+        </div>
+        
+        <div class="footer-social">
+            <a href="https://vk.com/nishtyakrnd" target="_blank"><img src="img/VK.png" alt="VK"></a>
+            <a href="https://t.me/anticafe_nishtyak" target="_blank"><img src="img/Telegram.png" alt="Telegram"></a>
+            <a href="https://instagram.com/nishtyak_rnd" target="_blank"><img src="img/Instagram.png" alt="Instagram"></a>
+        </div>
+        
+        <div class="footer-copyright">
+            © 2025 Антикафе "Ништяк". Все права защищены.
+        </div>
+    </div>
+</footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+		// Проверка возраста с улучшенной логикой
+document.addEventListener('DOMContentLoaded', function() {
+    const ageVerification = document.getElementById('ageVerification');
+    const confirmBtn = document.getElementById('confirmAge');
+    const declineBtn = document.getElementById('declineAge');
+    
+    // Проверяем, было ли подтверждение
+    const ageVerified = localStorage.getItem('ageVerified');
+    const expiryDate = ageVerified ? parseInt(ageVerified) : 0;
+    
+    if (!ageVerified || Date.now() > expiryDate) {
+        ageVerification.style.display = 'flex';
+    } else {
+        ageVerification.style.display = 'none';
+    }
+
+    // Обработчик подтверждения
+    confirmBtn.addEventListener('click', function() {
+        // Сохраняем на 30 дней
+        const newExpiryDate = Date.now() + (30 * 24 * 60 * 60 * 1000);
+        localStorage.setItem('ageVerified', newExpiryDate.toString());
+        
+        // Плавно скрываем окно
+        ageVerification.classList.add('fade-out');
+        setTimeout(() => {
+            ageVerification.style.display = 'none';
+        }, 500);
+    });
+
+    // Обработчик отказа
+    declineBtn.addEventListener('click', function() {
+        // Перенаправляем на безопасную страницу или закрываем сайт
+        window.location.href = "https://www.google.com"; // Или другая безопасная страница
+    });
+});
+		
+       const map = L.map('map').setView([47.232154, 39.699911], 17);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap, © CartoDB',
+    className: 'soft-map-style'
+}).addTo(map);
+
+// Добавляем метки
+const cafeIcon = L.icon({
+    iconUrl: 'img/map.png',
+    iconSize: [40, 40],
+    iconAnchor: [20, 40],
+    popupAnchor: [0, -40]
+});
+
+L.marker([47.232046, 39.701934], { icon: cafeIcon })
+    .addTo(map)
+    .bindPopup("<b>Ништяк 1.0</b><br>Буденновский пр-т, 93/295");
+
+L.marker([47.233563, 39.700866], { icon: cafeIcon })
+    .addTo(map)
+    .bindPopup("<b>Ништяк 2.0</b><br>ул. Текучева, 224");
+
+        // Галерея
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.dot');
+            const prevBtn = document.querySelector('.gallery-prev');
+            const nextBtn = document.querySelector('.gallery-next');
+            let currentIndex = 0;
+            let slideInterval;
+
+            function showSlide(index) {
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                slides[index].classList.add('active');
+                dots[index].classList.add('active');
+                currentIndex = index;
+            }
+
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                showSlide(currentIndex);
+                resetInterval();
+            }
+
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                showSlide(currentIndex);
+                resetInterval();
+            }
+
+            function goToSlide(index) {
+                currentIndex = index;
+                showSlide(currentIndex);
+                resetInterval();
+            }
+
+            function resetInterval() {
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextSlide, 5000);
+            }
+
+            showSlide(0);
+            slideInterval = setInterval(nextSlide, 5000);
+
+            nextBtn.addEventListener('click', nextSlide);
+            prevBtn.addEventListener('click', prevSlide);
+
+            dots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    const index = parseInt(this.getAttribute('data-index'));
+                    goToSlide(index);
+                });
+            });
+
+            const gallery = document.querySelector('.gallery-container');
+            gallery.addEventListener('mouseenter', () => clearInterval(slideInterval));
+            gallery.addEventListener('mouseleave', resetInterval);
+        });
+
+		// Параллакс-эффект для фона
+document.addEventListener('scroll', function() {
+    const divglav = document.querySelector('.divglav');
+    const scrollPosition = window.pageYOffset;
+    divglav.style.backgroundPosition = 'center ' + (-scrollPosition * 0.3) + 'px';
+});
+
+// Анимация при загрузке страницы
+document.addEventListener('DOMContentLoaded', function() {
+    // Задержка для полной загрузки элементов перед анимацией
+    setTimeout(function() {
+        document.body.classList.add('page-loaded');
+    }, 200);
+});
+		//для прокрутки второго блока
+		document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                
+                // Добавляем эффект частиц только при первом появлении
+                if (!entry.target.dataset.animated) {
+                    entry.target.dataset.animated = true;
+                    const particles = document.createElement('div');
+                    particles.className = 'particles-effect';
+                    entry.target.appendChild(particles);
+                    setTimeout(() => {
+                        particles.remove();
+                    }, 1000);
+                }
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    });
+
+    document.querySelectorAll('.minidiv').forEach(card => {
+        observer.observe(card);
+    });
+    
+    // Анимация заголовков
+    const zag = document.querySelector('.zag');
+    const zag3 = document.querySelector('.zag3');
+    const zag2 = document.querySelector('.zag2');
+    
+    setTimeout(() => {
+        zag.style.animationPlayState = 'running';
+    }, 300);
+    
+    setTimeout(() => {
+        zag3.style.animationPlayState = 'running';
+        zag2.style.animationPlayState = 'running';
+    }, 500);
+});
+		
+    </script>
+	
+	<script>
+// Анимация для второго блока при скролле
+document.addEventListener('DOMContentLoaded', function() {
+    const aboutSection = document.getElementById('about');
+    
+    // Создаем наблюдатель за пересечениями
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Анимация для всех элементов
+                const zag = document.querySelector('.zag');
+                const zag3 = document.querySelector('.zag3');
+                const zag2 = document.querySelector('.zag2');
+                
+                zag.style.animation = 'fadeInRotated 1s ease-out forwards';
+                zag3.style.animation = 'slideInRight 1s ease-out forwards 0.2s';
+                zag2.style.animation = 'slideInRight 1s ease-out forwards 0.4s';
+                
+                // Анимация для карточек
+                const cards = document.querySelectorAll('.minidiv');
+                cards.forEach((card, index) => {
+                    card.style.animation = `cardAppear 0.8s ease-out forwards ${index * 0.15}s`;
+                });
+            }
+        });
+    }, { threshold: 0.1 });
+
+    observer.observe(aboutSection);
+});	
+</script>
+	<script>
+// Анимация для блоков "НИШТЯК" и "НИШТЯК 2.0" при скролле
+document.addEventListener('DOMContentLoaded', function() {
+    const cafeSections = [document.getElementById('kaf1'), document.getElementById('kaf2')];
+    
+    cafeSections.forEach(section => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Анимация для заголовков
+                    const title = entry.target.querySelector('.nish');
+                    const address = entry.target.querySelector('.adres');
+                    const button = entry.target.querySelector('.button2');
+                    const rooms = entry.target.querySelectorAll('.komnata');
+                    
+                    title.style.animation = 'fadeInUp 0.8s ease-out forwards';
+                    address.style.animation = 'fadeInUp 0.8s ease-out forwards 0.2s';
+                    button.style.animation = 'fadeInUp 0.8s ease-out forwards 0.4s';
+                    
+                    // Анимация для комнат
+                    rooms.forEach((room, index) => {
+                        room.style.animation = `cardAppear 0.8s ease-out forwards ${index * 0.15 + 0.6}s`;
+                    });
+                }
+            });
+        }, { threshold: 0.1 });
+
+        if (section) {
+            observer.observe(section);
+        }
+    });
+});
+		// Анимация для блоков фотографий и контактов при скролле
+document.addEventListener('DOMContentLoaded', function() {
+    const gallerySection = document.getElementById('gallery');
+    const contactsSection = document.getElementById('contacts');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { 
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+    });
+
+    if (gallerySection) {
+        observer.observe(gallerySection);
+    }
+    
+    if (contactsSection) {
+        observer.observe(contactsSection);
+    }
+});
+		
+		
+document.addEventListener('DOMContentLoaded', function() {
+    // Карусель отзывов
+    const reviews = document.querySelectorAll('.review');
+    const dots = document.querySelectorAll('.review-dots .dot');
+    const prevReviewBtn = document.querySelector('.review-prev');
+    const nextReviewBtn = document.querySelector('.review-next');
+    let currentReviewIndex = 0;
+    let reviewInterval;
+
+    function showReview(index) {
+        reviews.forEach(review => review.classList.remove('active'));
+        dots.forEach(dot => dot.classList.remove('active'));
+        
+        reviews[index].classList.add('active');
+        dots[index].classList.add('active');
+        currentReviewIndex = index;
+    }
+
+    function nextReview() {
+        currentReviewIndex = (currentReviewIndex + 1) % reviews.length;
+        showReview(currentReviewIndex);
+        resetReviewInterval();
+    }
+
+    function prevReview() {
+        currentReviewIndex = (currentReviewIndex - 1 + reviews.length) % reviews.length;
+        showReview(currentReviewIndex);
+        resetReviewInterval();
+    }
+
+    function goToReview(index) {
+        currentReviewIndex = index;
+        showReview(currentReviewIndex);
+        resetReviewInterval();
+    }
+
+    function resetReviewInterval() {
+        clearInterval(reviewInterval);
+        reviewInterval = setInterval(nextReview, 7000);
+    }
+
+    showReview(0);
+    reviewInterval = setInterval(nextReview, 7000);
+
+    nextReviewBtn.addEventListener('click', nextReview);
+    prevReviewBtn.addEventListener('click', prevReview);
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', function() {
+            const index = parseInt(this.getAttribute('data-index'));
+            goToReview(index);
+        });
+    });
+
+    const reviewsContainer = document.querySelector('.reviews-container');
+    reviewsContainer.addEventListener('mouseenter', () => clearInterval(reviewInterval));
+    reviewsContainer.addEventListener('mouseleave', resetReviewInterval);
+    
+    // Анимация при появлении блока отзывов
+    const reviewsSection = document.getElementById('reviews');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                const reviews = entry.target.querySelectorAll('.review');
+                reviews.forEach((review, index) => {
+                    review.style.animationDelay = `${index * 0.2}s`;
+                });
+            }
+        });
+    }, { threshold: 0.1 });
+
+    if (reviewsSection) {
+        observer.observe(reviewsSection);
+    }
+});
+		// Анимация появления карточек с отзывами
+document.addEventListener('DOMContentLoaded', function() {
+    const reviewCards = document.querySelectorAll('.review-card');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }, index * 150);
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    reviewCards.forEach(card => {
+        card.style.opacity = 0;
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        observer.observe(card);
+    });
+});
+		
+		// Добавьте этот код в ваш существующий JavaScript
+const footer = document.querySelector('.footer');
+const footerObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+if (footer) {
+    footerObserver.observe(footer);
+}
+
+// И для блока отзывов
+const reviewsSection = document.getElementById('reviews');
+const reviewsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+if (reviewsSection) {
+    reviewsObserver.observe(reviewsSection);
+}
+</script>
+
+</body>
+</html>
