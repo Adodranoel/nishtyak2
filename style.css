@@ -2215,3 +2215,50 @@ review-card-content {
     width: 100%;
     max-width: 100%; /* Гарантирует, что ширина не превысит viewport */
 }
+
+	@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 10px;
+    }
+    
+    .minidiv {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        min-height: 400px;
+        margin-bottom: 20px;
+        perspective: none; /* Убираем перспективу для мобильных */
+    }
+    
+    .minidiv-inner {
+        height: auto;
+        min-height: 400px;
+    }
+    
+    .minidiv-front, 
+    .minidiv-back {
+        position: relative;
+        height: auto;
+        min-height: 400px;
+        backface-visibility: visible;
+        transform: none !important;
+    }
+    
+    .minidiv:hover .minidiv-inner {
+        transform: none !important;
+    }
+    
+    .minidiv-back {
+        display: none; /* Скрываем обратную сторону на мобильных */
+    }
+    
+    .minidiv-icon {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+}
