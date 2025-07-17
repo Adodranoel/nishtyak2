@@ -860,12 +860,31 @@ if (reviewsSection) {
     reviewsObserver.observe(reviewsSection);
 }
 			document.addEventListener('DOMContentLoaded', function() {
+    // Обработчик для переворота карточек в мобильной версии
     if (window.innerWidth <= 768) {
         const minidivs = document.querySelectorAll('.minidiv');
         
         minidivs.forEach(div => {
+            // Добавляем обработчик клика
             div.addEventListener('click', function() {
+                // Закрываем все другие открытые карточки
+                document.querySelectorAll('.minidiv-inner').forEach(inner => {
+                    if (inner !== this.querySelector('.minidiv-inner') {
+                        inner.classList.remove('flipped');
+                    }
+                });
+                
+                // Переворачиваем текущую карточку
                 this.querySelector('.minidiv-inner').classList.toggle('flipped');
+            });
+            
+            // Добавляем обработчик клика вне карточки для закрытия
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.minidiv')) {
+                    document.querySelectorAll('.minidiv-inner').forEach(inner => {
+                        inner.classList.remove('flipped');
+                    });
+                }
             });
         });
     }
