@@ -859,6 +859,17 @@ const reviewsObserver = new IntersectionObserver((entries) => {
 if (reviewsSection) {
     reviewsObserver.observe(reviewsSection);
 }
+			document.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth <= 768) {
+        const minidivs = document.querySelectorAll('.minidiv');
+        
+        minidivs.forEach(div => {
+            div.addEventListener('click', function() {
+                this.querySelector('.minidiv-inner').classList.toggle('flipped');
+            });
+        });
+    }
+});
 </script>
 
 </body>
