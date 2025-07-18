@@ -870,25 +870,7 @@ if (reviewsSection) {
         });
     }
 				//изменения
-				document.addEventListener('DOMContentLoaded', function() {
-    const minidivs = document.querySelectorAll('.minidiv');
-    
-    minidivs.forEach(div => {
-        if (window.innerWidth > 768) {
-            // Десктопная версия - hover
-            div.addEventListener('mouseenter', function() {
-                this.querySelector('.minidiv-inner').classList.add('flipped');
-            });
-            div.addEventListener('mouseleave', function() {
-                this.querySelector('.minidiv-inner').classList.remove('flipped');
-            });
-        } else {
-            // Мобильная версия - клик
-            div.addEventListener('click', function() {
-                this.querySelector('.minidiv-inner').classList.toggle('flipped');
-            });
-        }
-    });
+			
 });
 </script>
 
