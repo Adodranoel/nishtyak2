@@ -1987,7 +1987,7 @@ review-card-content {
     
     /* Нижний блок с адресом */
     .nish {
-        font-size: 32pt;
+        font-size: 28pt; /* CHANGE*/
         margin-left: 20px;
     }
     
@@ -2053,7 +2053,7 @@ review-card-content {
     
     .glav_zag {
         margin-left: 10%;
-        font-size: 12vw;
+        font-size: 10vw; /* ИЗМЕНЕНИЯ */
         line-height: 1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -2157,7 +2157,7 @@ review-card-content {
     }
     
     .glav_zag {
-        font-size: 18vw;
+        font-size: 15vw; /* ИЗМЕНЕНИЯ */
         -webkit-text-stroke: 0.4vw rgba(173, 211, 255, 1);
     }
     
