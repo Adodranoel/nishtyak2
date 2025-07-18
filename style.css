@@ -1925,7 +1925,7 @@ review-card-content {
     }
     
     .fot {
-        font-size: 32pt;
+        font-size: 28pt; /* ИЗМЕНЕНИЯ */
     }
     
     /* Отзывы */
@@ -1935,7 +1935,7 @@ review-card-content {
     }
     
     .review-card {
-        width: 100%;
+        width: 90%;
         height: auto;
         min-height: 400px;
     }
@@ -1957,7 +1957,7 @@ review-card-content {
     
     /* Контакты */
     .contacts-container {
-        height: 500px;
+        height: 400px; /* ИЗМЕНЕНИЯ */
     }
     
     .contacts-info-overlay {
@@ -1987,7 +1987,7 @@ review-card-content {
     
     /* Нижний блок с адресом */
     .nish {
-        font-size: 32pt;
+        font-size: 28pt; /* ИЗМЕНЕНИЯ */
         margin-left: 20px;
     }
     
@@ -2022,7 +2022,7 @@ review-card-content {
     }
     
     .glav_zag {
-        font-size: 10vw;
+        font-size: 8vw; /* ИЗМЕНЕНИЯ */
     }
     
     .rostov {
@@ -2053,7 +2053,7 @@ review-card-content {
     
     .glav_zag {
         margin-left: 10%;
-        font-size: 12vw;
+        font-size: 9vw; /* ИЗМЕНЕНИЯ */
         line-height: 1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -2157,7 +2157,7 @@ review-card-content {
     }
     
     .glav_zag {
-        font-size: 18vw;
+        font-size: 13vw; /* ИЗМЕНЕНИЯ */
         -webkit-text-stroke: 0.4vw rgba(173, 211, 255, 1);
     }
     
