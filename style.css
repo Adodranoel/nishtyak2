@@ -1987,7 +1987,7 @@ review-card-content {
     
     /* Нижний блок с адресом */
     .nish {
-        font-size: 28pt; /* CHANGE*/
+        font-size: 32pt;
         margin-left: 20px;
     }
     
@@ -2053,7 +2053,7 @@ review-card-content {
     
     .glav_zag {
         margin-left: 10%;
-        font-size: 10vw; /* ИЗМЕНЕНИЯ */
+        font-size: 12vw;
         line-height: 1;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -2157,7 +2157,7 @@ review-card-content {
     }
     
     .glav_zag {
-        font-size: 15vw; /* ИЗМЕНЕНИЯ */
+        font-size: 18vw;
         -webkit-text-stroke: 0.4vw rgba(173, 211, 255, 1);
     }
     
@@ -2169,7 +2169,7 @@ review-card-content {
         height: 350px;
     }
 }
-/*изменения*/
+
 @media (max-width: 768px) {
     /* Перестраиваем шапку для мобильных */
     header {
@@ -2206,114 +2206,12 @@ review-card-content {
 }
 
 @media (max-width: 768px) {
-    /* Отключаем переворот на мобильных */
-    .minidiv {
-        perspective: none !important;
-    }
-    
-    .minidiv-inner {
-        transform: none !important;
-    }
-    
-    .minidiv-front, 
-    .minidiv-back {
-        position: relative;
-        backface-visibility: visible;
-        transform: none !important;
-    }
-    
-    .minidiv-back {
-        display: none; /* Скрываем обратную сторону */
-    }
-    
-    /* Увеличиваем высоту для мобильных */
-    .minidiv {
-        height: auto;
-        min-height: 200px;
-    }
-    
-    /* Уменьшаем иконки для мобильных */
-    .minidiv-icon {
-        width: 120px;
-        height: 120px;
-    }
-}
-/* Общие стили для мобильной версии */
-@media (max-width: 768px) {
-    /* Убираем горизонтальные отступы у body */
-    body {
-        width: 100%;
-        overflow-x: hidden;
-        padding: 0;
-        margin: 0;
-    }
-    
-    /* Убираем горизонтальные отступы у всех основных блоков */
-    .divglav, .divper, .divdva, .div3, .reviews-section, .contacts-section, .footer {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    /* Скрываем шапку меню */
     header {
         display: none !important;
     }
-    
-    /* Корректируем отступы для контента */
-    .container, .container1, .gallery-container, .reviews-grid {
-        padding-left: 15px;
-        padding-right: 15px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    
-    /* Убираем фиксированные ширины у элементов */
-    .komnata, .review-card, .minidiv {
-        width: 100%;
-        max-width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    /* Корректируем размеры текста */
-    .glav_zag {
-        font-size: 15vw;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: center;
-    }
-    
-    .rostov {
-        font-size: 5vw;
-        text-align: center;
-        margin-left: 0;
-    }
-    
-    /* Кнопки на всю ширину */
-    .hero-button, .button2 {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-}
 
-/* Дополнительные корректировки для очень маленьких экранов */
-@media (max-width: 480px) {
-    .glav_zag {
-        font-size: 18vw;
-    }
-    
-    .rostov {
-        font-size: 6vw;
-    }
-    
-    /* Уменьшаем отступы у контейнеров */
-    .container, .container1 {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+	html, body {
+    overflow-x: hidden; /* Предотвращает горизонтальный скролл */
+    width: 100%;
+    max-width: 100%; /* Гарантирует, что ширина не превысит viewport */
 }
