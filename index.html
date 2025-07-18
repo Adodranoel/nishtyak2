@@ -869,22 +869,7 @@ if (reviewsSection) {
             });
         });
     }
-				//изменения
-			document.addEventListener('DOMContentLoaded', function() {
-    // Отключаем переворот карточек на мобильных
-    if (window.innerWidth > 768) {
-        const minidivs = document.querySelectorAll('.minidiv');
-        
-        minidivs.forEach(div => {
-            div.addEventListener('mouseenter', function() {
-                this.querySelector('.minidiv-inner').classList.add('flipped');
-            });
-            
-            div.addEventListener('mouseleave', function() {
-                this.querySelector('.minidiv-inner').classList.remove('flipped');
-            });
-        });
-    }
+			
 });
 </script>
 
