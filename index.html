@@ -74,10 +74,10 @@
     <button class="hero-button transparent-btn" onclick="window.open('https://wa.me/79518435929', '_blank')">ЗАБРОНИРОВАТЬ</button>
 		</div>
 		
-<!-- Блок дыма в HTML -->
+<!-- Блок дыма -->
 <div class="smoke-effect">
     <div class="smoke-container">
-        <!-- Частицы дыма с разными параметрами -->
+        <!-- Частицы дыма -->
         <span class="smoke-particle" style="--size:80px; --height:150px; --duration:8s; --delay:0s; --opacity:0.3; --blur:15px; --start-x:10%; --drift-x:20px"></span>
         <span class="smoke-particle" style="--size:120px; --height:200px; --duration:10s; --delay:1s; --opacity:0.2; --blur:20px; --start-x:25%; --drift-x:-30px"></span>
         <span class="smoke-particle" style="--size:60px; --height:120px; --duration:7s; --delay:2s; --opacity:0.4; --blur:12px; --start-x:40%; --drift-x:15px"></span>
@@ -460,7 +460,7 @@
         </div>
         
         <div class="footer-copyright">
-            © 2025 Антикафе "Ништяк". Все права защищены.
+            © 2025 Антикафе "Ништяк". 
         </div>
     </div>
 </footer>
@@ -468,7 +468,7 @@
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-		// Проверка возраста с улучшенной логикой
+		
 document.addEventListener('DOMContentLoaded', function() {
     const ageVerification = document.getElementById('ageVerification');
     const confirmBtn = document.getElementById('confirmAge');
@@ -490,7 +490,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const newExpiryDate = Date.now() + (30 * 24 * 60 * 60 * 1000);
         localStorage.setItem('ageVerified', newExpiryDate.toString());
         
-        // Плавно скрываем окно
+    
         ageVerification.classList.add('fade-out');
         setTimeout(() => {
             ageVerification.style.display = 'none';
@@ -500,7 +500,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Обработчик отказа
     declineBtn.addEventListener('click', function() {
         // Перенаправляем на безопасную страницу или закрываем сайт
-        window.location.href = "https://www.google.com"; // Или другая безопасная страница
+        window.location.href = "https://www.yandex.ru"; 
     });
 });
 		
@@ -511,7 +511,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     className: 'soft-map-style'
 }).addTo(map);
 
-// Добавляем метки
+//  метки
 const cafeIcon = L.icon({
     iconUrl: 'img/map.png',
     iconSize: [40, 40],
@@ -607,7 +607,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
                 
-                // Добавляем эффект частиц только при первом появлении
+                //  эффект частиц только при первом появлении
                 if (!entry.target.dataset.animated) {
                     entry.target.dataset.animated = true;
                     const particles = document.createElement('div');
@@ -650,7 +650,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const aboutSection = document.getElementById('about');
     
-    // Создаем наблюдатель за пересечениями
+    // наблюдатель за пересечениями
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -832,7 +832,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 		
-		// Добавьте этот код в ваш существующий JavaScript
+	
 const footer = document.querySelector('.footer');
 const footerObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -846,7 +846,7 @@ if (footer) {
     footerObserver.observe(footer);
 }
 
-// И для блока отзывов
+
 const reviewsSection = document.getElementById('reviews');
 const reviewsObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
